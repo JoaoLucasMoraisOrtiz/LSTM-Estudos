@@ -24,8 +24,10 @@
     Acompanhe abaixo:
 
     ```mermaid
-    graph TD;
-    X1-->Peso1-->Func.At.-->X2+X1;
-    X2+Anterior-->Peso1-->Func.At-->X3+X2+X1;
-    X3+X2+X1-->Peso1-->Func.At.-->SaidaRede;
+    flowchart TD
+    A[X1]-->B[Multiplica por Peso1]-->S[Somatorio = EntradasAnteriores + EntradaAtual + Bias]-->F[Função de ativação] -->C{Falta alguma entrada?}-->|Não|E[Saida Rede];
+                                                           C-->|Sim|P2[Multiplica por Peso2] -->|Lembre-se de \n Ao mesmo tempo que este \n resultado retorna, \n Inserir o próximo Xn na entrada| S;
+
+                                                           K[Passa para a próxima entrada: X2, X3, X4, ...] -->B;
+  
     ```
