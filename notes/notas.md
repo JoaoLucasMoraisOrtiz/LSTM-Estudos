@@ -141,3 +141,11 @@
         Temos a memória de longo prazo sendo passada diretamente para uma função tanh, gerando uma resposta, e agora calculamos quantos por cento desta resposta será atribuída à nova memória de curto prazo, colocando a saída desta função também no multiplicador.
 
         O resultado desta multiplicação é tanto a resposta da rede para a entrada k-1 quanto a nova memória de curto prazo.
+
+    Nós vamos utilizar nossas novas memórias de longo e curto praso para repetir todo o procedimento na próxima entrada da rede, ou em alguns casos, até que tenhamos o resultado que precisamos, utilizando a saída anterior como a nova entrada.
+
+## Treinamento de uma Rede LSTM
+O treinamento de uma rede LSTM pode ser feito por meio do algoritimo de backpropagation through time (BPTT).
+Basicamente é a mesma ideia do backpropagation, entretanto, em alguns momentos devemos aplicar a recursividade pois em uma rede LSTM sempre tratamos dos mesmos pessos. Para lidarmos com recursividade vamos considerar cada ciclo da rede como sendo uma camada de uma rede profunda.
+
+Geralmente vamos lidar com isto "por baixo dos panos" utilizando uma biblioteca.
