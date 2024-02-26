@@ -1,0 +1,4 @@
+Test Accuracy of the model on the 10000 test images: 97.63 % utilizando optim SGD, momentum 0.9 com shuffle
+Test Accuracy of the model on the 10000 test images: 97.96 % utilizando optim Adam com shuffle
+Testando a acurácia do modelo nas 10000 imagens de teste: 98.75 % utilizando optim Adamax e sem shuffle no dataset
+Testando a acurácia do modelo nas 10000 imagens de teste: 98.89 % utilizando optim Adamax com shuffle
