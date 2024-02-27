@@ -45,7 +45,7 @@ class RNN(nn.Module):
 
         
 
-        #passa a última saída da lstm para cada entrada Xn do batch pela camada fully connected
+        #passa a última saída da lstm para cada conjunto de entradas Xn do batch pela camada fully connected
         #isto retorna um vetor (batch_size, num_classes) onde cada item é um array com a probabilidade de cada classe
         out = self.fc(out[:, -1, :])
         return out
