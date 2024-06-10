@@ -2,7 +2,7 @@
 Este desafio foi proposto como solução no curso AI900 da Microsoft em parseria com a DIO.
 
 # Tecnologias Utilizadas
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pytorch](https://img.shields.io/badge/python-gray?style=for-the-badge&logo=pytorch&logoColor=red)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pytorch](https://img.shields.io/badge/pytorch-gray?style=for-the-badge&logo=pytorch&logoColor=red)
 
 ## tree do projeto
 | Pasta   | Conteúdo   |
